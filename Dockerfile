@@ -1,4 +1,4 @@
-FROM node:13-alpine
+FROM node:lts-alpine3.23
 
 ENV MONGO_DB_USERNAME=admin \
     MONGO_DB_PWD=password
